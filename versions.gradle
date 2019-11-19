@@ -1,0 +1,15 @@
+ext.deps = [:]
+ext.versions = [:]
+
+versions.rxjava = "2.2.9"
+versions.rx_android = "2.1.0"
+
+def rxjava2 = [:]
+rxjava2.rxjava = "io.reactivex.rxjava2:rxjava:$versions.rxjava"
+rxjava2.rxandroid = "io.reactivex.rxjava2:rxandroid:$versions.rx_android"
+deps.rxjava2 = rxjava2
+
+deps.guava = "com.google.guava:guava:28.1-android"
+
+ext.deps = deps
+ext.versions = versions
