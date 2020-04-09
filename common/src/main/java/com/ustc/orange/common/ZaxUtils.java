@@ -1,6 +1,7 @@
 package com.ustc.orange.common;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 
 import androidx.annotation.DrawableRes;
@@ -20,12 +21,12 @@ public class ZaxUtils {
   private ZaxUtils() {
   }
 
-  public static int dip2px(float dpValue) {
+  public static int dp2px(float dpValue) {
     final float scale = context().getResources().getDisplayMetrics().density;
     return (int) (dpValue * scale + 0.5f);
   }
 
-  public static int px2dip(float pxValue) {
+  public static int px2dp(float pxValue) {
     final float scale = context().getResources().getDisplayMetrics().density;
     return (int) (pxValue / scale + 0.5f);
   }
@@ -41,5 +42,9 @@ public class ZaxUtils {
 
   public static Context context() {
     return ZaxApplication.getContext();
+  }
+
+  public static Resources res() {
+    return context().getResources();
   }
 }

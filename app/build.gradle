@@ -34,7 +34,7 @@ dependencies {
     implementation 'com.google.guava:guava:28.1-android'
     implementation deps.recyclerview
 
-    implementation project(':zaxdanmaku')
+    implementation project(':zax-danmaku')
     implementation project(':common')
     implementation project(':zaxview')
 

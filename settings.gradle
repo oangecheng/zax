@@ -1,1 +1,1 @@
-include ':app', ':zaxdanmaku', ':common', ':zaxview'
+include ':app', ':zax-danmaku', ':common', ':zaxview'

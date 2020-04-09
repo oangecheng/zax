@@ -119,7 +119,7 @@ public class ZaxDanmakuActivity extends Activity {
     overlappingEnablePair.put(BaseDanmaku.TYPE_SCROLL_RL, true);
     mDanmakuContext = DanmakuContext.create();
     mDanmakuContext.setScrollSpeedFactor(2f)
-      .setDanmakuMargin(ZaxUtils.dip2px(10))
+      .setDanmakuMargin(ZaxUtils.dp2px(10))
       .setMaximumLines(maxLinesPair)
       .preventOverlapping(overlappingEnablePair)
       .setCacheStuffer(mViewCacheStuffer, null);

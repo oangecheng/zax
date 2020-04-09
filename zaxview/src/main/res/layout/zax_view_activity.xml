@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
-  android:layout_height="match_parent">
+  android:layout_height="match_parent"
+  android:background="#00ff00">
 
   <com.ustc.orange.zaxview.simple.ZaxArcTextView
     android:id="@+id/zax_arc_text_view"
     android:layout_width="300dp"
     android:layout_height="50dp"
     android:background="@android:color/holo_blue_dark" />
+
+  <ImageView
+    android:id="@+id/hollow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_below="@+id/zax_arc_text_view" />
+
+  <TextView
+    android:id="@+id/span"
+    android:background="@null"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
 </RelativeLayout>
