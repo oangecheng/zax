@@ -11,6 +11,7 @@ deps.rxjava2 = rxjava2
 
 deps.guava = "com.google.guava:guava:28.1-android"
 deps.recyclerview = "androidx.recyclerview:recyclerview:1.0.0"
+deps.fresco = 'com.facebook.fresco:fresco:1.13.0'
 
 ext.deps = deps
 ext.versions = versions

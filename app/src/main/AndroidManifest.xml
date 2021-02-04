@@ -3,7 +3,7 @@
   package="com.ustc.orange.zax">
 
   <application
-    android:name="com.ustc.orange.common.base.ZaxApplication"
+    android:name="com.ustc.orange.zax.ZaxApp"
     android:allowBackup="true"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
@@ -24,6 +24,7 @@
     </activity>
 
     <activity android:name="com.ustc.orange.zaxview.ZaxViewActivity" />
+    <activity android:name="com.ustc.orange.zaxredpack.RedPackActivity"/>
   </application>
 
 </manifest>

@@ -1,1 +1,2 @@
+include ':zax-redpack'
 include ':app', ':zax-danmaku', ':common', ':zaxview'

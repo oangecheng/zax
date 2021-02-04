@@ -33,9 +33,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.guava:guava:28.1-android'
     implementation deps.recyclerview
+    implementation deps.rxjava2.rxjava
+    implementation deps.rxjava2.rxandroid
+    implementation deps.fresco
+
 
     implementation project(':zax-danmaku')
     implementation project(':common')
     implementation project(':zaxview')
+    implementation project(':zax-redpack')
 
 }
