@@ -1,5 +1,6 @@
 package com.ustc.orange.common;
 
+import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
@@ -17,6 +18,7 @@ import com.ustc.orange.common.base.ZaxApplication;
  */
 public class ZaxUtils {
 
+  private static Application sApp;
 
   private ZaxUtils() {
   }
@@ -41,7 +43,11 @@ public class ZaxUtils {
   }
 
   public static Context context() {
-    return ZaxApplication.getContext();
+    return sApp;
+  }
+
+  public static void setContext(Application a){
+    sApp = a;
   }
 
   public static Resources res() {
