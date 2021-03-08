@@ -24,7 +24,7 @@
     </activity>
 
     <activity android:name="com.ustc.orange.zaxview.ZaxViewActivity" />
-    <activity android:name="com.ustc.orange.zaxredpack.RedPackActivity"/>
+    <activity android:name="com.ustc.orange.zaxredpack.show.test.RedPackActivity"/>
   </application>
 
 </manifest>

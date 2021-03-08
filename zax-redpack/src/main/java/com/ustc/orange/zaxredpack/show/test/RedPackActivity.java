@@ -1,10 +1,11 @@
-package com.ustc.orange.zaxredpack;
+package com.ustc.orange.zaxredpack.show.test;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.ustc.orange.zaxredpack.R;
 
 public class RedPackActivity extends Activity {
 

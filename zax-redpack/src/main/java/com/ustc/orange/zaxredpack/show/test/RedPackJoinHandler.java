@@ -1,8 +1,4 @@
-package com.ustc.orange.zaxredpack.show;
-
-import com.ustc.orange.zaxredpack.GrabRedPackInfo;
-import com.ustc.orange.zaxredpack.KwaiCoins;
-import com.ustc.orange.zaxredpack.RedPackHandler;
+package com.ustc.orange.zaxredpack.show.test;
 
 public class RedPackJoinHandler implements RedPackHandler<KwaiCoins> {
 
